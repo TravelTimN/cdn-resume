@@ -8,8 +8,8 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /*height: 450px;
-    width: 348px;*/
+    height: 360px;
+    /*width: 348px;*/
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
