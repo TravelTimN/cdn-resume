@@ -4,26 +4,26 @@
 /*------------------------------- COLORS -------------------------------*/
 
 .bg-color-name-title {
-    background-color: #676767;
+    background-color: #212121;
 }
 
 .ui-menu-color-home,
-.hvr-shutter-in-horizontal-home {
+.hvr-shutter-out-horizontal-home {
     background-color: #E67E22;
 }
 
 .ui-menu-color-resume,
-.hvr-shutter-in-horizontal-resume {
+.hvr-shutter-out-horizontal-resume {
     background-color: #9B59B6;
 }
 
 .ui-menu-color-contact,
-.hvr-shutter-in-horizontal-contact {
+.hvr-shutter-out-horizontal-contact {
     background-color: #3498DB;
 }
 
 .ui-menu-color-cv,
-.hvr-shutter-in-horizontal-cv {
+.hvr-shutter-out-horizontal-cv {
     background-color: #525252;
 }
 
@@ -114,6 +114,6 @@ header {
 
 /*------------------------------- HOVER.css -------------------------------*/
 
-.hvr-shutter-in-horizontal::before {
+.hvr-shutter-out-horizontal::before {
     background-color: rgba(255, 255, 255, 0.25);
 }
