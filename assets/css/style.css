@@ -4,14 +4,13 @@ header {
 }
 
 .logo {
-    /*background: url("../images/rosie.jpg");*/
-    background-color: red;
-    /*background-position: center;
+    background: url("../images/rosie.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     /*height: 450px;
     width: 348px;*/
-    /*transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;*/
+    -webkit-transition: all 0.5s ease-in-out;
 }
