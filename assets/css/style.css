@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700|Raleway:400,900');
+header {
+    margin: 0;
+}
+
+.logo {
+    /*background: url("../images/rosie.jpg");*/
+    background-color: red;
+    /*background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*height: 450px;
+    width: 348px;*/
+    /*transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;*/
+}
