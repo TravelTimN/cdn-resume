@@ -1,6 +1,17 @@
 /*------------------------------- ROOTS / IMPORTS -------------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,700|Raleway:400,900');
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
 /*------------------------------- COLORS -------------------------------*/
 
 .bg-color-name-title {
@@ -78,7 +89,7 @@ header {
 }
 
 .menu-item {
-    height: 120px;
+    height: 121px;
     text-align: center;
     padding: 0;
 }
@@ -87,7 +98,7 @@ header {
     width: 100%;
     text-decoration: none;
     color: #FFFFFF;
-    height: 120px;
+    height: 121px;
 }
 
 .menu-item a i {
@@ -108,12 +119,104 @@ header {
     letter-spacing: 2px;
 }
 
-.nav-shadow {
+.nav-shadow,
+.footer-shadow {
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.75);
+}
+
+.nav-bottom {
+    border-bottom: 3px solid #212121;
+}
+
+/*------------------------------- FOOTER -------------------------------*/
+
+footer {
+    background-color: #525252;
+    color: #FAFAFA;
+    min-height: 120px;
+    margin: 0;
+    border-top: 3px solid #212121;
+}
+
+footer .cv-pdf i {
+    color: #FAFAFA;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 5px;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+footer .cv-pdf i:hover {
+    /*color: #E84610;*/
+}
+
+.footer-sub {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #FAFAFA;
+}
+
+#footer-details {
+    margin: 20px;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.hvr-icon-bounce {
+    padding-top: 10px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 16px;
+    line-height: 7px;
+    text-align: center;
+    color: #FAFAFA;
+    background-color: #8F8F8F;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: #212121;
+}
+
+.social-links .fa-facebook-f:hover {
+    color: #3B5998;
+}
+
+.social-links .fa-twitter:hover {
+    color: #0084FF;
+}
+
+.social-links .fa-linkedin-in:hover {
+    color: #0077B5;
+}
+
+.social-links .fa-pinterest-p:hover {
+    color: #BD081C;
+}
+
+.social-links .fa-instagram:hover {
+    color: #C32AA3;
+}
+
+.social-links .fa-youtube:hover {
+    color: #FF0000;
 }
 
 /*------------------------------- HOVER.css -------------------------------*/
 
-.hvr-shutter-out-horizontal::before {
-    background-color: rgba(255, 255, 255, 0.25);
+.hvr-bounce-to-bottom::before {
+    background-color: rgba(255,255,255,0.2);
 }
