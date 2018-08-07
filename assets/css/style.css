@@ -149,9 +149,9 @@ footer .cv-pdf i {
     -o-transition: all 0.3s ease-in-out;
 }
 
-footer .cv-pdf i:hover {
-    /*color: #E84610;*/
-}
+/*footer .cv-pdf i:hover {
+    color: #E84610;
+}*/
 
 .footer-sub {
     font-family: 'Raleway', sans-serif;
