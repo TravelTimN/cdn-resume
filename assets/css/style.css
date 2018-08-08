@@ -18,6 +18,14 @@ h4 {
     background-color: #212121;
 }
 
+.bg-color-personal-info {
+    background-color: #C2C2C2;
+}
+
+.bg-color-three-reasons {
+    background-color: #FFFFFF;
+}
+
 .ui-menu-color-home,
 .hvr-shutter-out-horizontal-home {
     background-color: #E67E22;
@@ -49,7 +57,7 @@ header {
 }
 
 .logo {
-    background: url("../images/rosie.jpg");
+    background: url("../images/rosie-bw.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -58,6 +66,13 @@ header {
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
+}
+.logo:hover {
+    background: url("../images/rosie-color.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 360px;
 }
 
 .name,
@@ -124,8 +139,75 @@ header {
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.75);
 }
 
-.nav-bottom {
-    border-bottom: 3px solid #212121;
+/*------------------------------- SECTION -------------------------------*/
+
+/*.section-column {
+    padding: 0 30px 30px;
+    float: none;
+    display: table-cell;
+}*/
+
+.row-table {
+    display: table;
+}
+
+.section-heading {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+/*------------------------------- PERSONAL INFO -------------------------------*/
+
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+.personal-info-item .key p {
+    font-weight: 700;
+}
+.personal-info-item .value {
+    width: 60%;
+    position: relative;
+}
+
+/*------------------------------- THREE REASONS -------------------------------*/
+.three-reasons-icon {
+    font-size: 26px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,1);
+}
+
+.three-rooms-heading {
+    margin-bottom: 15px;
+}
+
+.icon-orange {
+    color: #E67E22;
+}
+
+.icon-purple {
+    color: #9B59B6;
+}
+
+.icon-blue {
+    color: #3498DB;
 }
 
 /*------------------------------- FOOTER -------------------------------*/
@@ -135,7 +217,6 @@ footer {
     color: #FAFAFA;
     min-height: 120px;
     margin: 0;
-    border-top: 3px solid #212121;
 }
 
 footer .cv-pdf i {
@@ -219,4 +300,14 @@ footer .cv-pdf i {
 
 .hvr-bounce-to-bottom::before {
     background-color: rgba(255,255,255,0.2);
+}
+
+/*------------------------------- @MEDIA QUERIES -------------------------------*/
+
+@media(min-width: 992px) {
+    .section-column {
+        padding: 0 30px 30px;
+        float: none;
+        display: table-cell;
+    }
 }
