@@ -8,11 +8,6 @@ h4 {
     margin: 0;
 }
 
-body,
-html {
-    background-color: pink;
-}
-
 .inline-block {
     display: inline-block;
 }
@@ -187,7 +182,6 @@ header {
     margin-bottom: 15px;
 }
 
-
 /*------------------------------- PERSONAL INFO -------------------------------*/
 
 .personal-info-item {
@@ -316,17 +310,11 @@ header {
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 20px;
-    /*color: #FFFFFF;*/
-    /**/
 }
-
-/*.bg-color-contact h5 {
-    color: #FFFFFF;
-}*/
 
 .form-settings {
     padding-top: 10px;
-    /*margin: 0 auto;*/
+    margin: 0 auto;
     max-width: 70%;
 }
 
@@ -437,6 +425,14 @@ footer .cv-pdf i {
 }
 
 /*------------------------------- @MEDIA QUERIES -------------------------------*/
+
+@media(max-width: 991px) {
+    .col-xs-10 .row {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
 @media(min-width: 992px) {
     .section-column {
         padding: 0 30px 30px;
