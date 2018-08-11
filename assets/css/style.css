@@ -57,8 +57,8 @@ h4 {
 .nav-shadow,
 .history-heading,
 .timeline-item h4,
-.footer-shadow,
-/*.contact-heading*/ {
+.footer-shadow/*,
+.contact-heading*/ {
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.75);
 }
 
