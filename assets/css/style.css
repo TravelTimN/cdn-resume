@@ -37,7 +37,9 @@ html {
     background-color: #C2C2C2;
 }
 
-.bg-color-three-reasons {
+.bg-color-three-reasons,
+.bg-color-my-skills,
+.bg-color-contact-form {
     background-color: #FFFFFF;
 }
 
@@ -68,10 +70,7 @@ html {
 .history-heading,
 .timeline-item h4,
 .footer-shadow,
-.text-shadow/*,
-.contact-heading*/
-
-    {
+.text-shadow {
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.75);
 }
 
@@ -182,6 +181,13 @@ header {
     margin-bottom: 40px;
 }
 
+.three-reasons-heading,
+.my-skills-heading,
+.contact-heading {
+    margin-bottom: 15px;
+}
+
+
 /*------------------------------- PERSONAL INFO -------------------------------*/
 
 .personal-info-item {
@@ -219,13 +225,8 @@ header {
 
 /*------------------------------- THREE REASONS -------------------------------*/
 
-.three-reasons-icon {
+.section-icons {
     font-size: 26px;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
-}
-
-.three-rooms-heading {
-    margin-bottom: 15px;
 }
 
 .icon-orange {
@@ -319,13 +320,13 @@ header {
     /**/
 }
 
-.bg-color-contact h5 {
+/*.bg-color-contact h5 {
     color: #FFFFFF;
-}
+}*/
 
-.center-form {
+.form-settings {
     padding-top: 10px;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     max-width: 70%;
 }
 
@@ -436,17 +437,16 @@ footer .cv-pdf i {
 }
 
 /*------------------------------- @MEDIA QUERIES -------------------------------*/
-
 @media(min-width: 992px) {
     .section-column {
         padding: 0 30px 30px;
         float: none;
         display: table-cell;
     }
-    .center-form {
+    .form-settings {
         padding-top: 30px;
-        margin: 0 auto;
+        /*margin: 0 auto;*/
         max-width: 50%;
-        min-height: 240px;
+        /*min-height: 240px;*/
     }
 }
