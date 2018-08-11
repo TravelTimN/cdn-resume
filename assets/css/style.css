@@ -8,6 +8,11 @@ h4 {
     margin: 0;
 }
 
+body,
+html {
+    background-color: pink;
+}
+
 .inline-block {
     display: inline-block;
 }
