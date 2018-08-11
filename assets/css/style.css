@@ -20,6 +20,10 @@ h4 {
 
 /*------------------------------- COLORS -------------------------------*/
 
+.text-white {
+    color: #FFFFFF;
+}
+
 .bg-color-name-title {
     background-color: #212121;
 }
@@ -33,7 +37,8 @@ h4 {
 }
 
 .ui-menu-color-home,
-.hvr-shutter-out-horizontal-home {
+.hvr-shutter-out-horizontal-home,
+.bg-color-personal-info-orange {
     background-color: #E67E22;
 }
 
@@ -57,8 +62,11 @@ h4 {
 .nav-shadow,
 .history-heading,
 .timeline-item h4,
-.footer-shadow/*,
-.contact-heading*/ {
+.footer-shadow,
+.text-shadow/*,
+.contact-heading*/
+
+    {
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.75);
 }
 
@@ -155,6 +163,10 @@ header {
 
 .row-table {
     display: table;
+}
+
+.section-heading-colors {
+    color: #FFFFFF;
 }
 
 .history-heading,
@@ -298,7 +310,8 @@ header {
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 20px;
-    /*color: #FFFFFF;*//**/
+    /*color: #FFFFFF;*/
+    /**/
 }
 
 .bg-color-contact h5 {
