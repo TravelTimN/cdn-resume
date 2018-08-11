@@ -44,13 +44,22 @@ h4 {
 }
 
 .ui-menu-color-contact,
-.hvr-shutter-out-horizontal-contact {
+.hvr-shutter-out-horizontal-contact,
+.bg-color-contact {
     background-color: #3498DB;
 }
 
 .ui-menu-color-cv,
 .hvr-shutter-out-horizontal-cv {
     background-color: #525252;
+}
+
+.nav-shadow,
+.history-heading,
+.timeline-item h4,
+.footer-shadow,
+/*.contact-heading*/ {
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.75);
 }
 
 /*------------------------------- HEADER -------------------------------*/
@@ -142,20 +151,7 @@ header {
     letter-spacing: 2px;
 }
 
-.nav-shadow,
-.history-heading,
-.timeline-item h4,
-.footer-shadow {
-    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.75);
-}
-
 /*------------------------------- SECTION -------------------------------*/
-
-/*.section-column {
-    padding: 0 30px 30px;
-    float: none;
-    display: table-cell;
-}*/
 
 .row-table {
     display: table;
@@ -295,6 +291,46 @@ header {
     margin: 40px 20px;
 }
 
+/*------------------------------- CONTACT -------------------------------*/
+
+.contact-heading {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    /*color: #FFFFFF;*/
+}
+
+.bg-color-contact h5 {
+    color: #FFFFFF;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #3498DB;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.75);
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background-color: #0165A8;
+    color: #FFFFFF;
+}
+
+.form-control::placeholder {
+    color: #3498DB;
+}
+
 /*------------------------------- FOOTER -------------------------------*/
 
 footer {
@@ -388,5 +424,11 @@ footer .cv-pdf i {
         padding: 0 30px 30px;
         float: none;
         display: table-cell;
+    }
+    .center-form {
+        padding-top: 30px;
+        margin: 0 auto;
+        max-width: 50%;
+        min-height: 240px;
     }
 }
