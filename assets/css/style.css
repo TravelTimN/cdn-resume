@@ -28,37 +28,51 @@ h4 {
     background-color: #212121;
 }
 
-.bg-color-personal-info {
-    background-color: #C2C2C2;
-}
-
-.bg-color-three-reasons,
-.bg-color-my-skills,
-.bg-color-contact-form {
+.bgcolor-main {
     background-color: #FFFFFF;
 }
 
-.ui-menu-color-home,
-.hvr-shutter-out-horizontal-home,
-.bg-color-personal-info-orange {
-    background-color: #E67E22;
+.bgcolor01 {
+    background-color: #160000;
+}
+.color01 {
+    color: #160000;
 }
 
-.ui-menu-color-resume,
-.hvr-shutter-out-horizontal-resume,
-.bg-color-work-history {
-    background-color: #9B59B6;
+.bgcolor02 {
+    background-color: #2F0700;
+}
+.color02 {
+    color: #2F0700;
 }
 
-.ui-menu-color-contact,
-.hvr-shutter-out-horizontal-contact,
-.bg-color-contact {
-    background-color: #3498DB;
+.bgcolor03 {
+    background-color: #492100;
+}
+.color03 {
+    color: #492100;
 }
 
-.ui-menu-color-cv,
-.hvr-shutter-out-horizontal-cv {
-    background-color: #525252;
+.bgcolor04 {
+    background-color: #623A15;
+}
+.color04 {
+    color: #623A15;
+}
+
+.bgcolor05 {
+    background-color: #7C542F;
+}
+.color05,
+.form-control::placeholder {
+    color: #7C542F;
+}
+
+.bgcolor06 {
+    background-color: #956D48;
+}
+.color06 {
+    color: #956D48;
 }
 
 .nav-shadow,
@@ -223,18 +237,6 @@ header {
     font-size: 26px;
 }
 
-.icon-orange {
-    color: #E67E22;
-}
-
-.icon-purple {
-    color: #9B59B6;
-}
-
-.icon-blue {
-    color: #3498DB;
-}
-
 /*------------------------------- WORK HISTORY -------------------------------*/
 
 .timeline-item {
@@ -271,11 +273,11 @@ header {
     left: -6px;
     border-radius: 12px;
     content: "";
-    background-color: #350050;
+    background-color: #956D48;
 }
 
 .history-heading {
-    color: #FAFAFA;
+    color: #FFFFFF;
     margin-bottom: 50px;
 }
 
@@ -321,7 +323,7 @@ header {
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    background-color: #3498DB;
+    background-color: #492100;
     color: #FFFFFF;
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.75);
     transition: all 0.2s ease-in-out;
@@ -330,12 +332,8 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #0165A8;
+    background-color: #7C542F;
     color: #FFFFFF;
-}
-
-.form-control::placeholder {
-    color: #3498DB;
 }
 
 /*------------------------------- FOOTER -------------------------------*/

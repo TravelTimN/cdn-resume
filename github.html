@@ -90,99 +90,58 @@
         <div class="row row-table">
 
             <!-- PERSONAL INFO -->
-            <div class="col-xs-12 col-sm-12 col-md-4 bgcolor01 section-column text-white">
+            <div class="col-xs-12 col-sm-12 col-md-4 bgcolor04 section-column text-white">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3 class="section-heading text-uppercase text-shadow">Personal Info</h3>
-                    </div>
-                </div>
-                <div class="personal-info-item">
-                    <div class="key">
-                        <p class="text-uppercase text-shadow">Name:</p>
-                    </div>
-                    <div class="value">
-                        <p>Rosie Odenkirk</p>
-                    </div>
-                </div>
-                <div class="personal-info-item">
-                    <div class="key">
-                        <p class="text-uppercase text-shadow">Address:</p>
-                    </div>
-                    <div class="value">
-                        <p>17 Riverdale, Catskills, NY USA</p>
-                    </div>
-                </div>
-                <div class="personal-info-item">
-                    <div class="key">
-                        <p class="text-uppercase text-shadow">Phone:</p>
-                    </div>
-                    <div class="value">
-                        <p>+1 (555) 785-1037</p>
-                    </div>
-                </div>
-                <div class="personal-info-item">
-                    <div class="key">
-                        <p class="text-uppercase text-shadow">Email:</p>
-                    </div>
-                    <div class="value">
-                        <p>rosie.odenkirk@hansaw.com</p>
+                        <h3 class="section-heading text-uppercase text-shadow">GitHub Projects</h3>
                     </div>
                 </div>
             </div>
 
-            <!-- THREE REASONS WHY -->
+            <!-- MY SKILLS -->
             <div class="col-xs-12 col-sm-12 col-md-8 bgcolor-main section-column">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3 class="section-heading text-uppercase">About Me</h3>
+                        <h3 class="section-heading text-uppercase">View my GitHub Projects</h3>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
                         <div class="row">
                             <div class="col-xs-2 col-sm-2 col-md-2">
-                                <i class="fas fa-question section-icons color01" aria-hidden="true"></i>
+                                <i class="fab fa-github section-icons color05" aria-hidden="true"></i>
                             </div>
                             <div class="col-xs-10 col-sm-10">
-                                <h4 class="three-reasons-heading text-uppercase">What do I do?</h4>
-                                <p>
-                                    I'm a skilled Full-Stack Developer with a wealth of diverse life and technical
-                                    experience that I bring to every project.
-                                </p>
+                                <h4 class="my-skills-heading text-uppercase">TravelTimN</h4>
+                                <p>Check out my GitHub respositories! https://github.com/TravelTimN</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
                         <div class="row">
                             <div class="col-xs-2 col-sm-2 col-md-2">
-                                <i class="fas fa-thumbs-up section-icons color01" aria-hidden="true"></i>
+                                <i class="fas fa-code-branch section-icons color05" aria-hidden="true"></i>
                             </div>
                             <div class="col-xs-10 col-sm-10">
-                                <h4 class="three-reasons-heading text-uppercase">How do I do it?</h4>
-                                <p>
-                                    I follow form as well as function. I know that the aesthetics of effective design
-                                    combined with application speed, security,
-                                    and reliability combine to create a great user experience.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
-                        <div class="row">
-                            <div class="col-xs-2 col-sm-2 col-md-2">
-                                <i class="fas fa-bolt section-icons color01" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-xs-10 col-sm-10">
-                                <h4 class="three-reasons-heading text-uppercase">Why hire me?</h4>
-                                <p>
-                                    I work quickly and effectively in getting things built and working across the
-                                    stack. I'm and excellent communicator who thrives
-                                    in bright and enthusiastic teams, and I'm also a self-starter when working solo.
-                                </p>
+                                <h4 class="my-skills-heading text-uppercase">Fork Me!</h4>
+                                <p>If you like what you see, be sure to Fork my projects and Follow me on GitHub!</p>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <!-- CONTACT FORM -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="center-form form-settings">
+                            <h5>(or change the username to see other GitHub projects)</h5>
+                            <input type="text" id="gh-username" value="TravelTimN" oninput="fetchGitHubInformation()">
+                            <div id="gh-user-data" class="clearfix"></div>
+                            <div id="gh-repo-data" class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
         </div>
