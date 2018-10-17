@@ -1,6 +1,7 @@
 /*------------------------------- ROOTS / IMPORTS -------------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,700|Raleway:400,900');
+
 h1,
 h2,
 h3,
@@ -35,6 +36,7 @@ h4 {
 .bgcolor01 {
     background-color: #160000;
 }
+
 .color01 {
     color: #160000;
 }
@@ -42,6 +44,7 @@ h4 {
 .bgcolor02 {
     background-color: #2F0700;
 }
+
 .color02 {
     color: #2F0700;
 }
@@ -49,6 +52,7 @@ h4 {
 .bgcolor03 {
     background-color: #492100;
 }
+
 .color03 {
     color: #492100;
 }
@@ -56,6 +60,7 @@ h4 {
 .bgcolor04 {
     background-color: #623A15;
 }
+
 .color04 {
     color: #623A15;
 }
@@ -63,6 +68,7 @@ h4 {
 .bgcolor05 {
     background-color: #7C542F;
 }
+
 .color05,
 .form-control::placeholder {
     color: #7C542F;
@@ -71,6 +77,7 @@ h4 {
 .bgcolor06 {
     background-color: #956D48;
 }
+
 .color06 {
     color: #956D48;
 }
@@ -337,8 +344,135 @@ button[type="submit"]:hover {
 }
 
 /*------------------------------- INTERESTS ---------------------------*/
+#mapdiv {
+    min-height: 500px;
+}
+
 #map {
     min-height: 360px;
+}
+
+/*------------------------------- GITHUB ------------------------------*/
+#search-area {
+    display: block;
+    max-width: 70%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 15px 25px;
+    box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+}
+
+#gh-api-data {
+    display: block;
+    padding: 25px 0;
+}
+
+#loader {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.small-name {
+    font-size: 0.75em;
+    color: #a9a9a9;
+    font-style: italic;
+}
+
+.avi {
+    float: left;
+    margin-right: 7px;
+    margin-bottom: 7px;
+}
+
+.avi img {
+    border: 1px solid #ccc;
+    padding: 3px;
+}
+
+.repo-list {
+    display: block;
+    clear: both;
+    width: 100%;
+}
+
+.repo-list ul {
+    font-size: 1.2em;
+}
+
+.repo-list ul li {
+    display: block;
+}
+
+.repo-list ul li a {
+    font-weight: bold;
+    padding: 6px 9px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    border: 1px solid #356492;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #3673af;
+    background-image: linear-gradient(top, #5597d8, #3673af);
+}
+
+.repo-list ul li a:hover {
+    background-color: #396895;
+    background-image: linear-gradient(top, #4b87c2, #396895);
+}
+
+.repo-list ul li a:active {
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.25);
+}
+
+.repo-list ul li a span {
+    font-family: "Courier New", Courier, "Lucida Typewriter", monospace;
+    font-size: 0.9em;
+}
+
+#gh-username {
+    display: block;
+    padding: 5px 8px;
+    font-size: 1.4em;
+    color: #666;
+    max-width: 550px;
+    margin-bottom: 15px;
+}
+
+#gh-submit {
+    display: inline-block;
+    padding: 8px 18px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+    background-color: #eaeaea;
+    background-image: linear-gradient(#fafafa, #eaeaea);
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    border-bottom-color: #c5c5c5;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+#gh-submit:hover {
+    background-color: #dadada;
+    background-image: linear-gradient(#eaeaea, #dadada);
+    border-color: #ccc #ccc #b5b5b5;
+}
+
+#gh-submit:active {
+    background-color: #dadada;
+    background-image: none;
+    border-color: #b5b5b5;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.25);
 }
 
 /*------------------------------- FOOTER -------------------------------*/
@@ -442,6 +576,7 @@ footer .cv-pdf i {
         float: none;
         display: table-cell;
     }
+
     .form-settings {
         padding-top: 30px;
         /*margin: 0 auto;*/
