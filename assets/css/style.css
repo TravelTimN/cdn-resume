@@ -406,6 +406,10 @@ button[type="submit"]:hover {
     display: block;
 }
 
+.repo-list ul li a:first-child {
+    margin-left: -40px;
+    margin-right: 50px;
+}
 .repo-list ul li a {
     font-weight: bold;
     padding: 6px 9px;
@@ -413,19 +417,16 @@ button[type="submit"]:hover {
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
+    text-align: center;
     text-decoration: none;
     border: 1px solid #356492;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
     color: #fff;
     background-color: #3673af;
-    background-image: linear-gradient(top, #5597d8, #3673af);
 }
 
 .repo-list ul li a:hover {
-    background-color: #396895;
-    background-image: linear-gradient(top, #4b87c2, #396895);
+    background-color: #2b5c8a;
 }
 
 .repo-list ul li a:active {

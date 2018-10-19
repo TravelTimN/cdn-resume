@@ -44,7 +44,7 @@ function userInformationHTML(user) {
         </h3>
         <div class="gh-content">
             <div class="gh-avatar">
-                <a href="${user.html_url} target="_blank">
+                <a href="${user.html_url}" target="_blank">
                     <img src="${user.avatar_url}" width="80" height="80" alt="${user.login}">
                 </a>
             </div>
@@ -121,3 +121,24 @@ function fetchGitHubInformation(event) {
 };
 
 $(document).ready(fetchGitHubInformation);
+
+
+// EMAIL.js
+function sendMail(contactForm) {
+    emailjs.init("user_RJTzsfaVO84Ek8tbUFlSn");
+    emailjs.send("gmail", "code_institute_rosie", {
+        "from_name": contactForm.name.value,
+        "from_email": contactForm.email.value,
+        "project_request": contactForm.projectsummary.value
+    })
+    .then(
+        function(response) {
+            alert("Success", response);
+        },
+        function(error) {
+            alert("Failed", error);
+        }
+    );
+    return false;
+}
+
